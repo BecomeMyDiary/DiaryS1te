@@ -60,7 +60,11 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue';
 
   <!-- 👉 Front Pages -->
   <VerticalNavGroup
-
+    :item="{
+      title: 'Front Pages',
+      icon: 'ri-file-copy-line',
+      badgeClass: 'bg-light-primary text-primary',
+    }"
   >
     <VerticalNavLink
       :item="{
